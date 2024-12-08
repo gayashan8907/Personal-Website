@@ -6,7 +6,7 @@ body{
     background: radial-gradient(
             circle at top,
             rgba(70, 212, 241, 0.98),
-            rgba(250, 176, 103, 0.87)
+            rgba(250, 103, 103, 0.87)
           )
          ;
      background-repeat: repeat;
