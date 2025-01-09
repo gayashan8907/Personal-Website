@@ -13,9 +13,6 @@ body{
     background-size: 100% 100%, 30% 30%, 100% 100%;
     min-height: 110rem;
       
-    /* background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png"); */
-
-    
 }
 
 
@@ -41,7 +38,7 @@ body{
     font-size: 2rem; 
     text-shadow: 2px 2px 4px rgba(173, 62, 62, 0.6); 
     text-align: center; 
-    font-size: 5rem;
+    font-size: 2rem;
     
 }
   
@@ -60,36 +57,15 @@ h1 {
     animation: fadeIn 2s forwards; 
     animation-delay: 1s; 
     
-    
-
 }
 
-
-@media(max-width:600px){
-    .carousel-caption{
-        font-size: 2rem;
-    }
-
-  }
-@media(max-width:600px){
-    body{
-        font-size: 1rem;
-        color: #2bc4ad;
-    }
-
-  }
 #udara{
     
     font-size: 8rem;
     font-family: 'Sacramento', cursive;
 }
 
-@media(max-width:600px){
-    #udara{
-        font-size: 2rem;
-    }
 
-  }
   .profile img{
     width: 150px;
     height: 150px;
@@ -123,7 +99,7 @@ p {
 }
 .justify-content-center{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 25px 0;
@@ -146,16 +122,7 @@ p {
     from {background-color:white;}
     to {background-color: #FFE1FF;}
   }
-@media(max-width:600px){
-    .align-items-start{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin: 20px;
-    
-    }
 
-  }
 h4{
     padding: 10px;
     font-family: "Roboto Slab", serif;
@@ -182,13 +149,7 @@ h4{
     margin-bottom: 50px;
     
 }
-@media(max-width:600px){
-    .cards{
-        display: flex;
-        flex-direction:row;
-    }
-   
-}
+
 #cards{
     display: flex;
     flex-direction: row;
@@ -311,6 +272,38 @@ h4{
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+
+  @media(max-width:1024px){
+    body{
+        font-size: 1rem;
+       
+    }
+   
+    .row-cols-sm-2{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(16, 156, 190);
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 20px;
+        
+        }
+    .justify-content-center{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 25px 0;
+            
+        }
+     #cards{
+            display: flex;
+            flex-direction:column;
+        }
+
   }
   
   
