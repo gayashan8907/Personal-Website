@@ -107,6 +107,10 @@ h1 {
 }
 p {
     line-height: 2;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight:light;
+    font-style: normal;
 }
 .intro {
     width: 30%;
@@ -154,6 +158,10 @@ p {
   }
 h4{
     padding: 10px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
     
 }
 .accordion-button{
@@ -186,6 +194,13 @@ h4{
     flex-direction: row;
     gap: 5rem;
 }
+.card-body {
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    color: white; /* Ensure text is white for better contrast */
+    padding: 20px;
+    border-radius: 5px;
+}
+
  
 .card1{
     padding-top:20px;

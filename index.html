@@ -8,6 +8,10 @@
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 </head>
 <body>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -26,8 +30,8 @@
           </div>
         </div>
       </div>
-      <div class="middle-container">
-        <div class="profile">
+      <div class="middle-container" >
+        <div class="profile" >
           <img  src="./images/IMG_5559.jpg" alt="udara-profile-img">
           
           <p class="intro">Hi I'm Udara Gayashan. A dynamic, hardworking ,self-motivated and result oriented BSc (Hons) Engineer
@@ -35,46 +39,47 @@
         </div>
 
 
-        <div class="d-flex gap-2 justify-content-center py-5">
-          <h2 >My Skills</h2>
+        <div class="text-center py-5" data-aos="fade-up">
+          <h2>My Skills</h2>
+          <div class="d-flex justify-content-center gap-2 flex-row">
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-secondary">React</span>
+              <span class="badge text-bg-success">jQuery</span>
+              <span class="badge text-bg-danger">Bootstrap</span>
+              <span class="badge text-bg-warning">CSS</span>
+              <span class="badge text-bg-info">PostgreSQL</span>
+              <span class="badge text-bg-light">Python</span>
+              <span class="badge text-bg-dark">Flask</span>
+              <span class="badge text-bg-primary">SolidWorks</span>
+              <span class="badge text-bg-danger">Engineering Design</span>
+          </div>
+      </div>
+      
 
-          <span class="badge text-bg-primary rounded-pill">JavaScript</span>
-          <span class="badge text-bg-secondary rounded-pill">React js</span>
-          <span class="badge text-bg-success rounded-pill">jQuery</span>
-          <span class="badge text-bg-danger rounded-pill">Bootstrap</span>
-          <span class="badge text-bg-warning rounded-pill">CSS</span>
-          <span class="badge text-bg-info rounded-pill">PostgreSQL</span>
-          <span class="badge text-bg-light rounded-pill">Python</span>
-          <span class="badge text-bg-dark rounded-pill">Flask</span>
-          <span class="badge text-bg-primary rounded-pill">SolidWorks</span>
-          <span class="badge text-bg-danger rounded-pill">Engineering Design </span>
-        </div>
 
 
 
-
-
-        <div class="container px-4 py-5" id="icon-grid">
+        <div class="container px-4 py-5" id="icon-grid" data-aos="fade-up">
           <h2 >Work Experience</h2>
       
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
             <div class="col d-flex align-items-start">
               
-              <div>
+              <div data-aos="zoom-in" >
                 <h4 class=" mb-0 fs-5 text-body-emphasis">Process line Technician at Pacific Fresh Pty Ltd </h4>
                 <p>Applied engineering principles to enhance sorting, cleaning, and packing operations.</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
               
-              <div>
+              <div data-aos="zoom-in">
                 <h4 class=" mb-0 fs-5 text-body-emphasis">Materials Technician at Technogates Pty Ltd </h4>
                 <p>Created detailed CAD models using SolidWorks for gate components and installed and maintained automatic gate systems.</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
               
-              <div>
+              <div data-aos="zoom-in">
                 <h4 class=" mb-0 fs-5 text-body-emphasis">Quality Assurance & Improvement Engineer at Ravi Industries Limited</h4>
                 <p>Developed and implemented quality plans for projects and designed new items, equipment, and layout for plant using SolidWorks and AutoCAD</p>
               </div>
@@ -84,7 +89,7 @@
           </div>
         </div>
 
-        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion accordion-flush" id="accordionFlushExample" data-aos="fade-up">
           <h2 >Education</h2>
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -109,10 +114,12 @@
           
           </div>
         </div>
-        <h2 >Projects</h2>
-       <div class="cards">
-        <div id="cards">
-        <div class="card1" style="width: 18rem;">
+
+
+        <h2 data-aos="fade-up" >Projects</h2>
+       <div class="cards" data-aos="fade-up">
+        <div id="cards" data-aos="zoom-in">
+        <div class="card1" style="width: 18rem;" ">
           <div class="card-body" >
             
              <h5 class="card-title">Quiz</h5>
@@ -138,7 +145,7 @@
         <div class="card3" style="width: 18rem;">
           <div class="card-body" >
             
-             <h5 class="card-title">'     '</h5>
+             <h5 class="card-title">Connect Four</h5>
              <br/>
             <h6 >JavaScript,React,css</h6>
             <br/>
@@ -160,7 +167,7 @@
         </div>
 
       </div>
-      <div id="cards">
+      <div id="cards"data-aos="zoom-in" >
         <div class="card5" style="width: 18rem;">
           <div class="card-body" >
             
@@ -202,7 +209,8 @@
       </div>
       </div>
 
-      <div class="contact-me">
+
+      <div class="contact-me" data-aos="fade-up">
         <h2>Get In Touch</h2>
         
         <a class="btn" href="https://udara.gaya@gmail.com">CONTACT ME</a>
@@ -234,5 +242,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+  </script>
 </body>
 </html>
