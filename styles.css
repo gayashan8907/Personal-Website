@@ -244,6 +244,107 @@ h4{
      border-radius: 10%;
       
  }
+
+ .card11{
+    padding-top:20px;
+     background-image: url('./images/Keyfob.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card22{
+    padding-top:20px;
+     background-image: url('./images/Game\ Controller\ Assembly.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card33{
+    padding-top:20px;
+     background-image: url('./images/Mouse.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card44{
+    padding-top:20px;
+     background-image: url('./images/Lego\ man.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card55{
+    padding-top:20px;
+     background-image: url('./images/Agitator\ roller.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card66{
+    padding-top:20px;
+     background-image: url('./images/Enclosure.SLDPRT.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card77{
+    padding-top:20px;
+     background-image: url('./images/Car\ Jack.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card88{
+    padding-top:20px;
+     background-image: url('./images/V\ Block.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card99{
+    padding-top:20px;
+     background-image: url('./images/chair.SLDPRT.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card111{
+    padding-top:20px;
+     background-image: url('./images/trolley.SLDPRT.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
  h6{
     color: blueviolet;
  }
