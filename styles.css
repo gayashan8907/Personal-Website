@@ -369,6 +369,16 @@ h4{
  
       border-radius: 10%;
  }
+ .card222{
+    padding-top:20px;
+     background-image: url('./images/stair\ case.SLDPRT.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
  h6{
     color: blueviolet;
  }
